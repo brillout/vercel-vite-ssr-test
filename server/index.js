@@ -1,9 +1,9 @@
 const fs = require('fs')
 
-const items = fs.readdirSync('..')
+const items = fs.readdirSync('.')
 throw(JSON.stringify( items));
 
-require('../dist/server/importer.js')
+require('./dist/server/importer.js')
 
 const express = require('express')
 const { createPageRender } = require('vite-plugin-ssr')
