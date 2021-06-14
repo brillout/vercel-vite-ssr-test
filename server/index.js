@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-fs.readdir(path, function(err, items) {
+fs.readdir('..', function(err, items) {
   throw(JSON.stringify( items));
 });
 
