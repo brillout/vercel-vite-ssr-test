@@ -1,8 +1,7 @@
 const fs = require('fs')
 
-fs.readdir('..', function(err, items) {
-  throw(JSON.stringify( items));
-});
+const items = fs.readdirSync('..')
+throw(JSON.stringify( items));
 
 require('../dist/server/importer.js')
 
