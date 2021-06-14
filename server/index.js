@@ -1,3 +1,11 @@
+const fs = require('fs')
+
+fs.readdir(path, function(err, items) {
+  throw(JSON.stringify( items));
+});
+
+require('../dist/server/importer.js')
+
 const express = require('express')
 const { createPageRender } = require('vite-plugin-ssr')
 
