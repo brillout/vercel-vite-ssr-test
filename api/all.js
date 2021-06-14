@@ -1,11 +1,9 @@
-// import { createPageRender } from 'vite-plugin-ssr';
-// const { resolve } = require('path')
+import { createPageRender } from 'vite-plugin-ssr';
+const { resolve } = require('path')
 
-// const renderPage = createPageRender({ isProduction: true, root: __dirname });
+const renderPage = createPageRender({ isProduction: true, root: resolve(__dirname, '..') });
 
 module.exports = async (req, res) => {
-    throw (__dirname)
-
     const result = await renderPage({
         url: req.url,
         pageProps: {},
