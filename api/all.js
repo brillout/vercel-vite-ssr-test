@@ -1,4 +1,4 @@
-import '../dist/server/importer.js';
+import './dist/server/importer.js';
 
 import { createPageRender } from 'vite-plugin-ssr'
 import { resolve } from 'path'
