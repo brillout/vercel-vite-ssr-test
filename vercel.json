@@ -1,0 +1,13 @@
+{
+    "functions": {
+        "api/all.js": {
+            "memory": 512
+        }
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/api/all.js"
+        }
+    ]
+}
