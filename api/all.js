@@ -1,7 +1,7 @@
-import './dist/server/importer.js';
+require('../dist/server/importer.js');
 
-import { createPageRender } from 'vite-plugin-ssr'
-import { resolve } from 'path'
+const { createPageRender } = require('vite-plugin-ssr');
+const { resolve } = require('path');
 
 const renderPage = createPageRender({ isProduction: true, root: resolve(__dirname, '..') });
 
