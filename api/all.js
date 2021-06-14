@@ -4,6 +4,8 @@ const { createPageRender } = require('vite-plugin-ssr');
 const renderPage = createPageRender({ isProduction: true, root: __dirname });
 
 module.exports = async (req, res) => {
+    console.error(__dirname)
+
     const result = await renderPage({
         url: req.url,
         pageProps: {},

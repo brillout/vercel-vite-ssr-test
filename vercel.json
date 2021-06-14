@@ -1,7 +1,8 @@
 {
     "functions": {
         "api/all.js": {
-            "memory": 512
+            "memory": 512,
+            "includeFiles": "dist/**"
         }
     },
     "routes": [
