@@ -1,15 +1,15 @@
 {
     "version": 2,
-    "builds": [
-        {
-            "src": "./server/index.js",
-            "use": "@vercel/node"
+    "functions": {
+        "api/all.js": {
+            "memory": 512,
+            "includeFiles": "dist/**"
         }
-    ],
+    },
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/server/"
+            "dest": "/api/all.js"
         }
     ]
 }
