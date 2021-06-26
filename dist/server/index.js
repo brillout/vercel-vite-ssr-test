@@ -1,4 +1,4 @@
-require('./dist/server/importer.js.js')
+require('../dist/server/importer.js')
 
 const express = require('express')
 const { createPageRender } = require('vite-plugin-ssr')
