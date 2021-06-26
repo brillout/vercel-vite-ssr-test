@@ -1,8 +1,3 @@
-const fs = require('fs')
-
-const items = fs.readdirSync('.')
-throw(JSON.stringify( items));
-
 require('./dist/server/importer.js.js')
 
 const express = require('express')
