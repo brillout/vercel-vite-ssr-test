@@ -11,5 +11,5 @@ module.exports = async (req, res) => {
         pageProps: {},
     });
     if (result.nothingRendered) res.status(200).send('');
-    else res.status(result.statusCode).send(result.renderResult);
+    else res.status(result.statusCode).setHeader("content-type", "text/html").send(result.renderResult);
 }
