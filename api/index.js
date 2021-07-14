@@ -14,6 +14,10 @@ fs.readdirSync(path.join(__dirname, '..', 'dist', 'server')).forEach(file => {
   console.log(file);
 });
 console.log(14)
+fs.readdirSync(path.join(__dirname, '..', 'dist', 'client')).forEach(file => {
+  console.log(file);
+});
+console.log(15)
 
 
 const pa  = path.join(__dirname, '..', 'dist', 'server', 'renderPage.js')
