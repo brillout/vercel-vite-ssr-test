@@ -1,7 +1,6 @@
 import path from 'path';
 const fs = require('fs');
 
-console.log(15)
 var walk = function(dir) {
     var results = [];
     var list = fs.readdirSync(dir);
@@ -18,7 +17,7 @@ var walk = function(dir) {
     });
     return results;
 }
-console.log(112)
+console.log(113)
 const files = walk(path.join(__dirname, '..')).filter(p => !p.includes('node_modules'))
 console.log(files)
 /*
