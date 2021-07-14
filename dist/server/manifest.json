@@ -1,28 +1,28 @@
 {
   "node_modules/vite-plugin-ssr/dist/esm/page-files/pageFiles.node.js": {
-    "file": "pageFiles.node.js.js",
+    "file": "pageFiles.node.js",
     "src": "node_modules/vite-plugin-ssr/dist/esm/page-files/pageFiles.node.js",
     "isEntry": true,
     "dynamicImports": [
-      "pages/index.page.vue",
       "pages/_error.page.vue",
+      "pages/index.page.vue",
       "pages/about/index.page.vue",
       "pages/_default/_default.page.client.js",
       "pages/_default/_default.page.server.js"
     ]
   },
-  "pages/index.page.vue": {
-    "file": "assets/index.page.84f3600c.js",
-    "src": "pages/index.page.vue",
-    "isDynamicEntry": true
-  },
   "pages/_error.page.vue": {
-    "file": "assets/_error.page.7e6fc469.js",
+    "file": "assets/_error.page.c51ebc50.js",
     "src": "pages/_error.page.vue",
     "isDynamicEntry": true
   },
+  "pages/index.page.vue": {
+    "file": "assets/index.page.2576dc08.js",
+    "src": "pages/index.page.vue",
+    "isDynamicEntry": true
+  },
   "pages/about/index.page.vue": {
-    "file": "assets/index.page.f8897ca1.js",
+    "file": "assets/index.page.f81a2310.js",
     "src": "pages/about/index.page.vue",
     "isDynamicEntry": true,
     "css": [
@@ -30,12 +30,12 @@
     ]
   },
   "pages/_default/_default.page.client.js": {
-    "file": "assets/_default.page.client.e46d795d.js",
+    "file": "assets/_default.page.client.5087efb3.js",
     "src": "pages/_default/_default.page.client.js",
     "isDynamicEntry": true
   },
   "pages/_default/_default.page.server.js": {
-    "file": "assets/_default.page.server.21e9e4ab.js",
+    "file": "assets/_default.page.server.2ccdf416.js",
     "src": "pages/_default/_default.page.server.js",
     "isDynamicEntry": true,
     "css": [
