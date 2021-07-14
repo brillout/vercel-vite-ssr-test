@@ -1,14 +1,13 @@
 {
-    "version": 2,
-    "functions": {
-        "api/index.js": {
-            "includeFiles": "../dist/server/**"
-        }
-    },
-    "rewrites": [
-        {
-          "source": "/((?!assets/).*)",
-          "destination": "/api/index.js"
-        }
-    ]
+  "functions": {
+    "api/index.js": {
+      "includeFiles": ["dist/server/**", "dist/**", "dist/client/**"]
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/((?!assets/).*)",
+      "destination": "/api/index.js"
+    }
+  ]
 }
