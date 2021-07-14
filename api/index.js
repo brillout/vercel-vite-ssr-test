@@ -1,9 +1,6 @@
+import path from 'path';
 
-import { createPageRender } from 'vite-plugin-ssr';
-import '../dist/server/importer.js';
-import { resolve } from 'path';
-
-const renderPage = createPageRender({ isProduction: true, root: resolve(__dirname, '..') });
+const { renderPage } =  require(path.join(__dirname, '../dist/server/renderPage.bundle'))
 
 module.exports = async (req, res) => {
     const result = await renderPage({

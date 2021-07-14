@@ -4,7 +4,7 @@
     "prod": "npm run build && npm run server:prod",
     "build": "npm run build:vite && npm run build:server",
     "build:vite": "vite build && vite build --ssr",
-    "build:server": "esbuild api/index.source.js --bundle --platform=node --outfile=api/index.js",
+    "build:server": "esbuild dist/server/renderPage.js --bundle --platform=node --outfile=dist/server/renderPage.bundle.js",
     "server": "node ./server",
     "server:prod": "cross-env NODE_ENV=production node ./server"
   },
@@ -16,7 +16,7 @@
     "esbuild": "^0.12.15",
     "express": "^4.17.1",
     "vite": "^2.3.6",
-    "vite-plugin-ssr": "^0.1.1",
+    "vite-plugin-ssr": "^0.1.6-beta.2",
     "vue": "^3.0.11"
   }
 }

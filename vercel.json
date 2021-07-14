@@ -2,7 +2,7 @@
     "version": 2,
     "functions": {
         "api/index.js": {
-            "includeFiles": "api/index.js"
+            "includeFiles": "dist/server/renderPage.bundle.js"
         }
     },
     "rewrites": [
