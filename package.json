@@ -5,9 +5,9 @@
     "build": "npm run build:vite",
     "// build": "npm run build:vite && npm run build:server",
     "build:vite": "vite build && vite build --ssr",
-    "build:server": "esbuild dist/server/renderPage.js --bundle --platform=node --outfile=dist/server/renderPage.bundle.js",
-    "server": "node ./server",
-    "server:prod": "cross-env NODE_ENV=production node ./server"
+    "// build:server": "esbuild dist/server/renderPage.js --bundle --platform=node --outfile=dist/server/renderPage.bundle.js",
+    "// server": "node ./server",
+    "// server:prod": "cross-env NODE_ENV=production node ./server"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^1.2.3",
