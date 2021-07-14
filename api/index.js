@@ -1,6 +1,25 @@
 import path from 'path';
+const fs = require('fs');
 
-const { renderPage } =  require(path.join(__dirname, '../dist/server/renderPage.bundle'))
+console.log(11)
+fs.readdirSync(__dirname).forEach(file => {
+  console.log(file);
+});
+console.log(12)
+fs.readdirSync(path.join(__dirname, '..')).forEach(file => {
+  console.log(file);
+});
+console.log(13)
+fs.readdirSync(path.join(__dirname, '..', 'dist')).forEach(file => {
+  console.log(file);
+});
+console.log(14)
+
+
+const pa  = path.join(__dirname, '..', 'dist', 'server', 'renderPage.bundle.js')
+console.log(pa)
+console.log('end')
+const { renderPage } =  require(pa)
 
 module.exports = async (req, res) => {
     const result = await renderPage({
