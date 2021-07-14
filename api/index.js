@@ -18,8 +18,9 @@ var walk = function(dir) {
     });
     return results;
 }
-console.log(111)
-console.log(walk(path.join(__dirname, '..')))
+console.log(112)
+const files = walk(path.join(__dirname, '..')).filter(p => !p.includes('node_modules'))
+console.log(files)
 /*
 fs.readdirSync(__dirname).forEach(file => {
   console.log(file);
@@ -28,15 +29,15 @@ console.log(12)
 fs.readdirSync(path.join(__dirname, '..')).forEach(file => {
   console.log(file);
 });
-console.log(13)
 */
+console.log(13)
 fs.readdirSync(path.join(__dirname, '..', 'dist', 'server')).forEach(file => {
   console.log(file);
 });
+console.log(14)
 fs.readdirSync(path.join(__dirname, '..', 'dist', 'client')).forEach(file => {
   console.log(file);
 });
-console.log(14)
 console.log(15)
 
 
