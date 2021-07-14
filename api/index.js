@@ -1,7 +1,25 @@
 import path from 'path';
 const fs = require('fs');
 
+console.log(15)
+var walk = function(dir) {
+    var results = [];
+    var list = fs.readdirSync(dir);
+    list.forEach(function(file) {
+        file = dir + '/' + file;
+        var stat = fs.statSync(file);
+        if (stat && stat.isDirectory()) { 
+            /* Recurse into a subdirectory */
+            results = results.concat(walk(file));
+        } else { 
+            /* Is a file */
+            results.push(file);
+        }
+    });
+    return results;
+}
 console.log(11)
+/*
 fs.readdirSync(__dirname).forEach(file => {
   console.log(file);
 });
@@ -13,11 +31,12 @@ console.log(13)
 fs.readdirSync(path.join(__dirname, '..', 'dist', 'server')).forEach(file => {
   console.log(file);
 });
-console.log(14)
 fs.readdirSync(path.join(__dirname, '..', 'dist', 'client')).forEach(file => {
   console.log(file);
 });
-console.log(15)
+*/
+console.log(walk(path.join(__dirname, '..')))
+console.log(14)
 
 
 const pa  = path.join(__dirname, '..', 'dist', 'server', 'renderPage.js')
