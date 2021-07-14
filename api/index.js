@@ -18,7 +18,8 @@ var walk = function(dir) {
     });
     return results;
 }
-console.log(11)
+console.log(111)
+console.log(walk(path.join(__dirname, '..')))
 /*
 fs.readdirSync(__dirname).forEach(file => {
   console.log(file);
@@ -28,15 +29,15 @@ fs.readdirSync(path.join(__dirname, '..')).forEach(file => {
   console.log(file);
 });
 console.log(13)
+*/
 fs.readdirSync(path.join(__dirname, '..', 'dist', 'server')).forEach(file => {
   console.log(file);
 });
 fs.readdirSync(path.join(__dirname, '..', 'dist', 'client')).forEach(file => {
   console.log(file);
 });
-*/
-console.log(walk(path.join(__dirname, '..')))
 console.log(14)
+console.log(15)
 
 
 const pa  = path.join(__dirname, '..', 'dist', 'server', 'renderPage.js')
