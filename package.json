@@ -2,8 +2,10 @@
   "scripts": {
     "dev": "npm run server",
     "prod": "npm run build && npm run server:prod",
-    "build": "npm run build:vite",
-    "// build": "npm run build:vite && npm run build:server",
+    "build": "npm run build:files",
+    "// build": "npm run build:vite && npm run build:files",
+    "build:files": "mkdir -p public && mkdir -p dist/ && echo 'ewqiue' > public/bla.html && echo abbc > dist/aaa.js",
+    "//2 build": "npm run build:vite && npm run build:server",
     "build:vite": "vite build && vite build --ssr",
     "// build:server": "esbuild dist/server/renderPage.js --bundle --platform=node --outfile=dist/server/renderPage.bundle.js",
     "// server": "node ./server",
