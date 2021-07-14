@@ -1,4 +1,4 @@
-import path from 'path';
+const path = require('path');
 const fs = require('fs');
 
 var walk = function(dir) {
@@ -17,7 +17,7 @@ var walk = function(dir) {
     });
     return results;
 }
-console.log(124)
+console.log(126)
 console.log('d', __dirname)
 const files = walk(path.join(__dirname, '..')).filter(p => !p.includes('node_modules'))
 console.log(files)
