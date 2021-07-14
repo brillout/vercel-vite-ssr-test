@@ -17,14 +17,15 @@ var walk = function(dir) {
     });
     return results;
 }
-console.log(121)
+console.log(122)
+console.log('d', __dirname)
 const files = walk(path.join(__dirname, '..')).filter(p => !p.includes('node_modules'))
 console.log(files)
-/*
-fs.readdirSync(__dirname).forEach(file => {
+console.log(12)
+fs.readdirSync(path.join(__dirname, '..')).forEach(file => {
   console.log(file);
 });
-console.log(12)
+/*
 fs.readdirSync(path.join(__dirname, '..')).forEach(file => {
   console.log(file);
 });
