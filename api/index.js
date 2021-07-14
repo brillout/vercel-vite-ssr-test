@@ -10,13 +10,13 @@ fs.readdirSync(path.join(__dirname, '..')).forEach(file => {
   console.log(file);
 });
 console.log(13)
-fs.readdirSync(path.join(__dirname, '..', 'dist')).forEach(file => {
+fs.readdirSync(path.join(__dirname, '..', 'dist', 'server')).forEach(file => {
   console.log(file);
 });
 console.log(14)
 
 
-const pa  = path.join(__dirname, '..', 'dist', 'server', 'renderPage.bundle.js')
+const pa  = path.join(__dirname, '..', 'dist', 'server', 'renderPage.js')
 console.log(pa)
 console.log('end')
 const { renderPage } =  require(pa)
