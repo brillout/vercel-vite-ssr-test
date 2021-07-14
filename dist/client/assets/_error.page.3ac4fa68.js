@@ -1,1 +1,0 @@
-import{o as e,c as n,b as o,e as r}from"./vendor.00ac554e.js";const t={props:["is404"]},s={key:0},a=o("h1",null,"404 Page Not Found",-1),d=r(" This page could not be found. "),i={key:1},u=o("h1",null,"500 Internal Server Error",-1),l=r(" Something went wrong. ");t.render=function(o,r,t,c,p,f){return o.is404?(e(),n("div",s,[a,d])):(e(),n("div",i,[u,l]))};export default t;

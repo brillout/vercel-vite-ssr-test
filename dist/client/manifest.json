@@ -1,53 +1,53 @@
 {
   "pages/_default/_default.page.client.js": {
-    "file": "assets/pages/_default/_default.page.client.js.b090e2c2.js",
+    "file": "assets/pages\\_default\\_default.page.client.js.012a0837.js",
     "src": "pages/_default/_default.page.client.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor.00ac554e.js"
+      "_vendor.bde7932d.js"
     ],
     "css": [
-      "assets/pages/_default/_default.page.client.js.c299d944.css"
+      "assets/pages\\_default\\_default.page.client.js.9d9bcad0.css"
     ],
     "assets": [
       "assets/logo.bebe2e90.svg"
     ]
   },
-  "_vendor.00ac554e.js": {
-    "file": "assets/vendor.00ac554e.js",
+  "_vendor.bde7932d.js": {
+    "file": "assets/vendor.bde7932d.js",
     "dynamicImports": [
-      "pages/_error.page.vue",
       "pages/index.page.vue",
+      "pages/_error.page.vue",
       "pages/about/index.page.vue",
       "pages/_default/_default.page.client.js"
     ]
   },
-  "pages/_error.page.vue": {
-    "file": "assets/_error.page.3ac4fa68.js",
-    "src": "pages/_error.page.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "_vendor.00ac554e.js"
-    ]
-  },
   "pages/index.page.vue": {
-    "file": "assets/index.page.c053bc5d.js",
+    "file": "assets/index.page.81c655ab.js",
     "src": "pages/index.page.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor.00ac554e.js"
+      "_vendor.bde7932d.js"
+    ]
+  },
+  "pages/_error.page.vue": {
+    "file": "assets/_error.page.261024ae.js",
+    "src": "pages/_error.page.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.bde7932d.js"
     ]
   },
   "pages/about/index.page.vue": {
-    "file": "assets/index.page.375493e0.js",
+    "file": "assets/index.page.ccbcffef.js",
     "src": "pages/about/index.page.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor.00ac554e.js"
+      "_vendor.bde7932d.js"
     ],
     "css": [
-      "assets/index.page.5a083e75.css"
+      "assets/index.page.c673fbc5.css"
     ]
   }
 }

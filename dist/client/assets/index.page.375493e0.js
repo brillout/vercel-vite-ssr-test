@@ -1,1 +1,0 @@
-import{o,c as e,F as n,b as r}from"./vendor.00ac554e.js";const l={},a=r("h1",null,"About",-1),t=r("p",null,"A colored page.",-1);l.render=function(r,l){return o(),e(n,null,[a,t],64)};export default l;
