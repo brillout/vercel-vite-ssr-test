@@ -5,6 +5,6 @@
 
 <style>
 h1, p {
-  color: green;
+  color: red;
 }
 </style>

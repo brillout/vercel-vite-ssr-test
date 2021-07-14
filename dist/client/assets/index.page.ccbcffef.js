@@ -1,1 +1,0 @@
-import{o,c as e,F as n,b as r}from"./vendor.bde7932d.js";const l={},t=r("h1",null,"About",-1),u=r("p",null,"A colored page.",-1);l.render=function(r,l){return o(),e(n,null,[t,u],64)};export default l;
