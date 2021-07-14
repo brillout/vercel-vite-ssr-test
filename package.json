@@ -19,5 +19,8 @@
     "vite": "^2.3.6",
     "vite-plugin-ssr": "^0.1.6-beta.2",
     "vue": "^3.0.11"
+  },
+  "devDependencies": {
+    "vercel": "^23.0.1"
   }
 }
