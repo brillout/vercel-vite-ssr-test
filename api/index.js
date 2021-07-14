@@ -17,7 +17,7 @@ var walk = function(dir) {
     });
     return results;
 }
-console.log(126)
+console.log(127)
 console.log('d', __dirname)
 const files = walk(path.join(__dirname, '..')).filter(p => !p.includes('node_modules'))
 console.log(files)
