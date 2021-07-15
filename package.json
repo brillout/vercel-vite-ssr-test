@@ -1,11 +1,6 @@
 {
-  "name": "vercel-vite-plugin-ssr",
-  "version": "1.0.0",
-  "license": "MIT",
-  "source": "source/index.js",
-  "main": "api/index.js",
   "scripts": {
-    "build": "echo 'build'",
+    "build": "echo 'aaaaaaaaaaaaaaaaabbbbbbbbb'",
     "vercel-build": "vite build && vite build --ssr"
   },
   "dependencies": {
