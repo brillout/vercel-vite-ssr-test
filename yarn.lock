@@ -942,10 +942,10 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vite-plugin-ssr@^0.1.6-beta.2:
-  version "0.1.6-beta.2"
-  resolved "https://registry.yarnpkg.com/vite-plugin-ssr/-/vite-plugin-ssr-0.1.6-beta.2.tgz#1be2f03ee1e3a0b27ac30e2843b0e071cd68cb85"
-  integrity sha512-/bY0F1LumTNGe9l2y6IkR/cyeeq+PxoFh0fJbJT6XcPkoVnUgYmP+YwQPA61LkQjFZ24qOPkvlfHXJI03lx+lw==
+vite-plugin-ssr@^0.2.0-beta.0:
+  version "0.2.0-beta.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-ssr/-/vite-plugin-ssr-0.2.0-beta.0.tgz#f0b8a867d91f6625cf5bac7a5e79852db17de44a"
+  integrity sha512-sjtYIajZsxNe+iE5zTF42uGfpAaIgs/TVdDotBb4A3an8MbrW7/MurwM7YuXDTCYG2GWWCm/BJIpoJULQfuG9Q==
   dependencies:
     "@brillout/json-s" "^0.2.0"
     "@brillout/libassert" "^0.4.2"
