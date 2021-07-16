@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "build": "echo 'bla'",
     "vercel-build": "vite build && vite build --ssr"
   },
   "dependencies": {
