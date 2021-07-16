@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "build": "vite build",
-    "vercel-build": "vite build --ssr"
+    "vercel-build": "vite build && vite build --ssr"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^1.2.3",
