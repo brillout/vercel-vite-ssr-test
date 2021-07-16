@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/((?!assets/).*)",
-      "destination": "/api/index.js"
+      "destination": "/api/render.js"
     }
   ]
 }
